@@ -1,0 +1,27 @@
+{
+  "hotels": [
+    {
+      "name": "Nazwa Hotelu (np. Gran Canaria)",
+      "url": "https://www.tui.pl/wypoczynek/...",
+      "priceLimitAlert": 3000
+    }
+  ],
+  "email": {
+    "enabled": false,
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "secure": false,
+    "auth": {
+      "user": "twoj_email@gmail.com",
+      "pass": "twoje_haslo_aplikacji_gmail"
+    },
+    "to": [
+      "odbiorca1@gmail.com",
+      "odbiorca2@gmail.com"
+    ],
+    "sendOnPriceChangeOnly": false
+  },
+  "enableDesktopNotifications": true,
+  "enableLogFile": true,
+  "logFilePath": "tui_prices.log"
+}

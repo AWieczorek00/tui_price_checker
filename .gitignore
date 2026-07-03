@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Config files (config.json has credentials, config.json.example is tracked instead)
+config/config.json
+config/state.json
+
+# Local runtime logs and images
+*.log
+*.png
+screenshots/
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+  "name": "tui-price-checker",
+  "version": "1.0.0",
+  "description": "Program do monitorowania cen hoteli na TUI.pl w tle",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "nodemailer": "^9.0.3",
+    "playwright": "^1.49.0"
+  },
+  "keywords": [
+    "tui",
+    "scraper",
+    "price-monitor"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}
